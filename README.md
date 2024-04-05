@@ -1,37 +1,17 @@
-# blacksmith
+# Su
 
 A generic static site generator built using `flatiron`, `plates`, and `marked`.
 
-* [Creating a site with Blacksmith](#creating-a-site-with-blacksmith)
-* [Components of a Blacksmith site](#components-of-a-blacksmith-site)
-  * [Site Settings](#site-settings)
-  * [Layouts](#layouts)
-  * [Pages](#pages)
-    * [All Page Options](#all-page-options)
-  * [Content](#content)
-    * [Specifying Metadata](#specifying-metadata)
-    * [Content Snippets](#content-snippets)
-    * [Code Highlighting](#code-highlighting)
-    * [Truncated Content](#truncated-content)
-  * [Partials](#partials)
-    * [Customizing Partials](#customizing-partials)
-    * [Metadata References](#metadata-references)
-    * [Conditional Metadata](#conditional-metadata)
-* [How does blacksmith render my Site?](#how-does-blacksmith-render-my-site)
-  * [Rendering Procedure](#rendering-procedure)
-  * [Rendering Data Structure](#rendering-data-structure)
-* [Tests](#tests)
+## Creating a site with `Su`
 
-## Creating a site with `blacksmith`
-
-Blacksmith sites have a specific directory structure for storing the various parts of your site: settings, layout, partials, pages, and content. Content exists in two forms:
+Su sites have a specific directory structure for storing the various parts of your site: settings, layout, partials, pages, and content. Content exists in two forms:
 
 * Markdown files that `blacksmith` will render.
 * Supporting content such as css and images.
 
 All content will be rendered into `/public`. To render a blacksmith site:
 
-**Install Blacksmith**
+**Install **
 
 ``` bash
   $ npm install blacksmith -g
